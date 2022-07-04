@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Positive Test,,,,2022-07-04 09:43:36,2022-07-04 09:43:45,9.249s,FAILED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_01,,"Verify login when entering valid username and valid password
+Username : John Doe
+Password : ThisIsNotAPassword",,2022-07-04 09:43:36,2022-07-04 09:43:39,3.204s,FAILED
+"openBrowser("""")",,,,2022-07-04 09:43:36,2022-07-04 09:43:39,2.953s,FAILED
+,,,,,,,
+Test Cases/Assignment/Make Appointment/APP_01,,"Make an Appointment with full field filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and type Make Appointment	
+6. Click Submit",,2022-07-04 09:43:39,2022-07-04 09:43:41,1.877s,FAILED
+"callTestCase(findTestCase(""Assignment/Login/LOGIN_01""), [:], STOP_ON_FAILURE)",,,,2022-07-04 09:43:40,2022-07-04 09:43:41,1.496s,FAILED
+,,,,,,,
+Test Cases/Assignment/Check Appointment/CHECK_01,,"Check if the appointment is booked successfully
+1. Click Menu on Top Right Page	
+1. Click History",,2022-07-04 09:43:41,2022-07-04 09:43:43,1.943s,FAILED
+"callTestCase(findTestCase(""Assignment/Make Appointment/APP_01""), [:], STOP_ON_FAILURE)",,,,2022-07-04 09:43:42,2022-07-04 09:43:43,1.537s,FAILED
+,,,,,,,
+Test Cases/Assignment/Logout/LOGOUT,,,,2022-07-04 09:43:43,2022-07-04 09:43:45,1.944s,FAILED
+"callTestCase(findTestCase(""Assignment/Make Appointment/APP_01""), [:], STOP_ON_FAILURE)",,,,2022-07-04 09:43:44,2022-07-04 09:43:45,1.512s,FAILED

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Full Positive Test" time="60.937" tests="4" failures="0" errors="0">
+   <testsuite name="Full Positive Test" tests="4" failures="0" errors="0" time="60.937" skipped="0" timestamp="2022-07-01 14:44:36" hostname="095053 - LAPTOP-BRAVO05.bfi.co.id" id="Test Suites/Full Positive Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\095053\\Katalon Studio\\CURA Test Project2\\Reports\\20220701_144425\\Full Positive Test\\20220701_144425"/>
+         <property name="logFiles" value="C:\\Users\\095053\\Katalon Studio\\CURA Test Project2\\Reports\\20220701_144425\\Full Positive Test\\20220701_144425\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="095053 - LAPTOP-BRAVO05.bfi.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.66"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="e8f0b911ee283a91f5b10843648f05a2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Assignment/Login/LOGIN_01" time="11.126" classname="Test Cases/Assignment/Login/LOGIN_01" status="PASSED">
+         <system-out><![CDATA[2022-07-01 14:44:36 - [TEST_CASE][PASSED] - Test Cases/Assignment/Login/LOGIN_01: Test Cases/Assignment/Login/LOGIN_01
+
+2022-07-01 14:44:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 14:44:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 14:44:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 14:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 14:44:40 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:44:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:44:43 - [TEST_STEP][PASSED] - click(findTestObject("menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_menu_login")): Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:44:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:44:45 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:44:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:44:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_login_home")): Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:44:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt_verify_login"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:44:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assignment/Make Appointment/APP_01" time="14.923" classname="Test Cases/Assignment/Make Appointment/APP_01" status="PASSED">
+         <system-out><![CDATA[2022-07-01 14:44:48 - [TEST_CASE][PASSED] - Test Cases/Assignment/Make Appointment/APP_01: Test Cases/Assignment/Make Appointment/APP_01
+
+2022-07-01 14:44:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Assignment/Login/LOGIN_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:44:48 - [TEST_CASE][PASSED] - Test Cases/Assignment/Login/LOGIN_01: Test Cases/Assignment/Login/LOGIN_01
+
+2022-07-01 14:44:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 14:44:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-01 14:44:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 14:44:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 14:44:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 14:44:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:44:54 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:44:54 - [TEST_STEP][PASSED] - click(findTestObject("menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_menu_login")): Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:44:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:44:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:44:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:44:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_login_home")): Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:44:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt_verify_login"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:44:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:44:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:44:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_facility"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:44:59 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:44:59 - [TEST_STEP][PASSED] - click(findTestObject("chk_hospital_readmission")): Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_health_program")): Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("input_visit_date"), "20/08/2022"): Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:00 - [MESSAGE][PASSED] - Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("input_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:01 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:01 - [TEST_STEP][PASSED] - click(findTestObject("btn_book_appointment")): Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:02 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/appointment.php#summary"): Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:02 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("txt_appointment_confirmation"), 3): Object 'Object Repository/txt_appointment_confirmation' is present
+
+2022-07-01 14:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/txt_appointment_confirmation' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assignment/Check Appointment/CHECK_01" time="16.484" classname="Test Cases/Assignment/Check Appointment/CHECK_01" status="PASSED">
+         <system-out><![CDATA[2022-07-01 14:45:03 - [TEST_CASE][PASSED] - Test Cases/Assignment/Check Appointment/CHECK_01: Test Cases/Assignment/Check Appointment/CHECK_01
+
+2022-07-01 14:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Assignment/Make Appointment/APP_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Assignment/Make Appointment/APP_01' successfully
+
+2022-07-01 14:45:03 - [TEST_CASE][PASSED] - Test Cases/Assignment/Make Appointment/APP_01: Test Cases/Assignment/Make Appointment/APP_01
+
+2022-07-01 14:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Assignment/Login/LOGIN_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:45:03 - [TEST_CASE][PASSED] - Test Cases/Assignment/Login/LOGIN_01: Test Cases/Assignment/Login/LOGIN_01
+
+2022-07-01 14:45:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 14:45:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-01 14:45:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 14:45:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 14:45:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 14:45:05 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:08 - [TEST_STEP][PASSED] - click(findTestObject("menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_menu_login")): Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:45:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:45:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:45:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:45:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_login_home")): Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:45:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt_verify_login"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:45:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:45:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:45:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_facility"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:45:14 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:45:14 - [TEST_STEP][PASSED] - click(findTestObject("chk_hospital_readmission")): Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_health_program")): Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("input_visit_date"), "20/08/2022"): Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:15 - [MESSAGE][PASSED] - Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("input_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:16 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_book_appointment")): Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/appointment.php#summary"): Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:17 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("txt_appointment_confirmation"), 3): Object 'Object Repository/txt_appointment_confirmation' is present
+
+2022-07-01 14:45:17 - [MESSAGE][PASSED] - Object 'Object Repository/txt_appointment_confirmation' is present
+
+2022-07-01 14:45:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Assignment/Make Appointment/APP_01' successfully
+
+2022-07-01 14:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/history_appointment")): Object: 'Object Repository/history_appointment' is clicked on
+
+2022-07-01 14:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/history_appointment' is clicked on
+
+2022-07-01 14:45:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verify_appointment"), 3): Object 'Object Repository/verify_appointment' is present
+
+2022-07-01 14:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/verify_appointment' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assignment/Logout/LOGOUT" time="18.044" classname="Test Cases/Assignment/Logout/LOGOUT" status="PASSED">
+         <system-out><![CDATA[2022-07-01 14:45:19 - [TEST_CASE][PASSED] - Test Cases/Assignment/Logout/LOGOUT: Test Cases/Assignment/Logout/LOGOUT
+
+2022-07-01 14:45:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Assignment/Make Appointment/APP_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Assignment/Make Appointment/APP_01' successfully
+
+2022-07-01 14:45:19 - [TEST_CASE][PASSED] - Test Cases/Assignment/Make Appointment/APP_01: Test Cases/Assignment/Make Appointment/APP_01
+
+2022-07-01 14:45:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Assignment/Login/LOGIN_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:45:19 - [TEST_CASE][PASSED] - Test Cases/Assignment/Login/LOGIN_01: Test Cases/Assignment/Login/LOGIN_01
+
+2022-07-01 14:45:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 14:45:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-01 14:45:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 14:45:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 14:45:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 14:45:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:25 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:25 - [TEST_STEP][PASSED] - click(findTestObject("menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_menu_login")): Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_menu_login' is clicked on
+
+2022-07-01 14:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:45:27 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/input_username'
+
+2022-07-01 14:45:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:45:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+2022-07-01 14:45:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_login_home")): Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_login_home' is clicked on
+
+2022-07-01 14:45:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt_verify_login"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:45:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt_verify_login' are matched.
+
+2022-07-01 14:45:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Assignment/Login/LOGIN_01' successfully
+
+2022-07-01 14:45:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_facility"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:45:30 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/select_facility'  using regular expression
+
+2022-07-01 14:45:30 - [TEST_STEP][PASSED] - click(findTestObject("chk_hospital_readmission")): Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/chk_hospital_readmission' is clicked on
+
+2022-07-01 14:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_health_program")): Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/select_health_program' is clicked on
+
+2022-07-01 14:45:31 - [TEST_STEP][PASSED] - setText(findTestObject("input_visit_date"), "20/08/2022"): Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:32 - [MESSAGE][PASSED] - Text '20/08/2022' is set on object 'Object Repository/input_visit_date'
+
+2022-07-01 14:45:32 - [TEST_STEP][PASSED] - setText(findTestObject("input_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:33 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/input_comment'
+
+2022-07-01 14:45:33 - [TEST_STEP][PASSED] - click(findTestObject("btn_book_appointment")): Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_book_appointment' is clicked on
+
+2022-07-01 14:45:34 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/appointment.php#summary"): Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:34 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2022-07-01 14:45:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("txt_appointment_confirmation"), 3): Object 'Object Repository/txt_appointment_confirmation' is present
+
+2022-07-01 14:45:34 - [MESSAGE][PASSED] - Object 'Object Repository/txt_appointment_confirmation' is present
+
+2022-07-01 14:45:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Assignment/Make Appointment/APP_01' successfully
+
+2022-07-01 14:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/menu_CURA")): Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_CURA' is clicked on
+
+2022-07-01 14:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_menu_logout")): Object: 'Object Repository/btn_menu_logout' is clicked on
+
+2022-07-01 14:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_menu_logout' is clicked on
+
+2022-07-01 14:45:36 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-01 14:45:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verify_home"), 3): Object 'Object Repository/verify_home' is present
+
+2022-07-01 14:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/verify_home' is present
+
+2022-07-01 14:45:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-01 14:45:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-01 14:44:36 - [TEST_SUITE][PASSED] - Full Positive Test: Test Cases/Assignment/Logout/LOGOUT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Data Driven Testing/Data Driven Testing","testCaseId":"Test Cases/Data Driven Testing/Data Driven Testing","iterationVariableName":"","bindedValues":{"ddt_username":"\u0027John Doe\u0027","ddt_password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/Data Driven Testing/Data Driven Testing","testCaseId":"Test Cases/Data Driven Testing/Data Driven Testing","iterationVariableName":"","bindedValues":{"ddt_username":"\u0027Arrifqi\u0027","ddt_password":"\u0027Aziz\u0027"}}
+{"testCaseName":"Test Cases/Data Driven Testing/Data Driven Testing","testCaseId":"Test Cases/Data Driven Testing/Data Driven Testing","iterationVariableName":"","bindedValues":{"ddt_username":"\u0027Kipli\u0027","ddt_password":"\u0027Shap\u0027"}}

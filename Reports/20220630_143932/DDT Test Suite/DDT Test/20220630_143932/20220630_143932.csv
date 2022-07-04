@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT Test,Chrome 103.0.5060.66,,,2022-06-30 14:39:35,2022-06-30 14:42:21,2m - 46.496s,FAILED
+,,,,,,,
+Test Cases/Data Driven Testing/Data Driven Testing,Chrome 103.0.5060.66,,,2022-06-30 14:39:35,2022-06-30 14:40:06,30.739s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-06-30 14:39:36,2022-06-30 14:39:38,2.491s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 103.0.5060.66,,,2022-06-30 14:39:38,2022-06-30 14:39:53,14.348s,PASSED
+"click(findTestObject(""menu_CURA""))",Chrome 103.0.5060.66,,,2022-06-30 14:39:53,2022-06-30 14:39:53,0.466s,PASSED
+"click(findTestObject(""Object Repository/btn_menu_login""))",Chrome 103.0.5060.66,,,2022-06-30 14:39:53,2022-06-30 14:40:01,8.018s,PASSED
+"setText(findTestObject(""Object Repository/input_username""), ddt_username)",Chrome 103.0.5060.66,,,2022-06-30 14:40:01,2022-06-30 14:40:02,0.758s,PASSED
+"setText(findTestObject(""Object Repository/input_password""), ddt_password)",Chrome 103.0.5060.66,,,2022-06-30 14:40:02,2022-06-30 14:40:03,0.737s,PASSED
+"click(findTestObject(""Object Repository/btn_login_home""))",Chrome 103.0.5060.66,,,2022-06-30 14:40:03,2022-06-30 14:40:05,2.179s,PASSED
+"verifyElementText(findTestObject(""txt_verify_login""), ""Make Appointment"", CONTINUE_ON_FAILURE)",Chrome 103.0.5060.66,,,2022-06-30 14:40:05,2022-06-30 14:40:05,0.525s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-06-30 14:40:05,2022-06-30 14:40:06,0.771s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/Data Driven Testing,Chrome 103.0.5060.66,,,2022-06-30 14:40:31,2022-06-30 14:41:43,1m - 11.714s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-06-30 14:40:31,2022-06-30 14:40:33,1.265s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 103.0.5060.66,,,2022-06-30 14:40:33,2022-06-30 14:41:32,59.307s,PASSED
+"click(findTestObject(""menu_CURA""))",Chrome 103.0.5060.66,,,2022-06-30 14:41:32,2022-06-30 14:41:32,0.383s,PASSED
+"click(findTestObject(""Object Repository/btn_menu_login""))",Chrome 103.0.5060.66,,,2022-06-30 14:41:32,2022-06-30 14:41:33,0.875s,PASSED
+"setText(findTestObject(""Object Repository/input_username""), ddt_username)",Chrome 103.0.5060.66,,,2022-06-30 14:41:33,2022-06-30 14:41:34,0.806s,PASSED
+"setText(findTestObject(""Object Repository/input_password""), ddt_password)",Chrome 103.0.5060.66,,,2022-06-30 14:41:34,2022-06-30 14:41:35,0.670s,PASSED
+"click(findTestObject(""Object Repository/btn_login_home""))",Chrome 103.0.5060.66,,,2022-06-30 14:41:35,2022-06-30 14:41:36,1.026s,PASSED
+"verifyElementText(findTestObject(""txt_verify_login""), ""Make Appointment"", CONTINUE_ON_FAILURE)",Chrome 103.0.5060.66,,,2022-06-30 14:41:36,2022-06-30 14:41:42,6.626s,FAILED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-06-30 14:41:42,2022-06-30 14:41:43,0.743s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/Data Driven Testing,Chrome 103.0.5060.66,,,2022-06-30 14:42:06,2022-06-30 14:42:21,15.225s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-06-30 14:42:06,2022-06-30 14:42:08,1.258s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 103.0.5060.66,,,2022-06-30 14:42:08,2022-06-30 14:42:10,2.919s,PASSED
+"click(findTestObject(""menu_CURA""))",Chrome 103.0.5060.66,,,2022-06-30 14:42:10,2022-06-30 14:42:11,0.373s,PASSED
+"click(findTestObject(""Object Repository/btn_menu_login""))",Chrome 103.0.5060.66,,,2022-06-30 14:42:11,2022-06-30 14:42:12,0.852s,PASSED
+"setText(findTestObject(""Object Repository/input_username""), ddt_username)",Chrome 103.0.5060.66,,,2022-06-30 14:42:12,2022-06-30 14:42:12,0.791s,PASSED
+"setText(findTestObject(""Object Repository/input_password""), ddt_password)",Chrome 103.0.5060.66,,,2022-06-30 14:42:12,2022-06-30 14:42:13,0.686s,PASSED
+"click(findTestObject(""Object Repository/btn_login_home""))",Chrome 103.0.5060.66,,,2022-06-30 14:42:13,2022-06-30 14:42:14,0.987s,PASSED
+"verifyElementText(findTestObject(""txt_verify_login""), ""Make Appointment"", CONTINUE_ON_FAILURE)",Chrome 103.0.5060.66,,,2022-06-30 14:42:14,2022-06-30 14:42:21,6.571s,FAILED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-06-30 14:42:21,2022-06-30 14:42:21,0.769s,PASSED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/txt_verify_login",
+      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::h2[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220630_140617/DDT Test Suite/DDT Test/20220630_140617/Object Repository/txt_verify_login_neighbor.png"
+    }
+  ]
+}
